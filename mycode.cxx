@@ -10,7 +10,7 @@ using namespace std;
 
 int main (void)
 {
-  cout << "Raspberry Pi - Gertboard Blink\n" ;
+  cout << "SmartEcoPlantSystem - Realtime Embedded Progrsmming\n" ;
 
   wiringPiSetup () ;
 
