@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/blinkingTest.dir/blinkingTest.cxx.o  -o blinkingTest /usr/lib/libwiringPi.so 

@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/pi/Desktop/SmartEcoPlantSystem/test/blinkingTest/blinkingTest.cxx
+stdio.h
+-
+wiringPi.h
+-
+iostream
+-
+
