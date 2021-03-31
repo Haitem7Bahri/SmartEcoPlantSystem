@@ -11,5 +11,5 @@ One LED is connected to port GPIO 17 on the Raspberry Pi with a suitable resisto
 
 The test can be run using the following command:
 ```
-./blinkingTest
+./build/blinkingTest
 ```
