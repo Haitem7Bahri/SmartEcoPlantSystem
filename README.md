@@ -1,17 +1,17 @@
 <p align="center"></p>
 
 <h1 align="center">
-<img width="64" src="docs/images/logo.svg">
+<img width="64" src="docs/SEPS Logo 2.png">
   Smart Eco-Plant System
   <br>
   <a href="https://github.com/Haitem7Bahri/SmartEcoPlantSystem/issues"><img src="https://img.shields.io/github/issues/Haitem7Bahri/SmartEcoPlantSystem" alt="GitHub Issues"></a>
   <a href="https://github.com/Haitem7Bahri/SmartEcoPlantSystem/pulls"><img src="https://img.shields.io/github/issues-pr/Haitem7Bahri/SmartEcoPlantSystem" alt="GitHub Pull Requests"></a>
   <a href="https://www.gnu.org/licenses/gpl-3.0.en.html"><img src="https://img.shields.io/github/license/Haitem7Bahri/SmartEcoPlantSystem" alt="License"></a>
   <br>
-  <a href="https://www.youtube.com/channel/UCa6wbjpejbbG89zu2GJMtjQ/featured"><img width="32" hspace="5" src="docs/images/youtube.svg"></img></a>
-  <a href="https://twitter.com/SmartEcoPlantSy"><img width="32" hspace="5" src="docs/images/twitter.svg"></img></a>
+  <a href="https://www.youtube.com/channel/UCa6wbjpejbbG89zu2GJMtjQ/featured"><img width="32" hspace="5" src="docs/youtube.png"></img></a>
+  <a href="https://twitter.com/SmartEcoPlantSy"><img width="32" hspace="5" src="docs/twitter.png"></img></a>
 </h1> 
-<!--Logo from https://www.istockphoto.com/>
+<!--Logo from https://www.istockphoto.com/-->
 
 # SmartEcoPlantSystem
 
