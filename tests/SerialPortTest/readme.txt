@@ -1,0 +1,1 @@
+It is a serial port test code that I used to test if serial port was correctly open.
