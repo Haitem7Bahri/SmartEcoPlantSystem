@@ -1,7 +1,7 @@
 <p align="center"></p>
 
 <h1 align="center">
-<img width="64" src="doc/SEPSlogo.png">
+<img width="240" src="doc/SEPSlogo.png">
   <br>
   Smart Eco-Plant System
   <br>
