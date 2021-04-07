@@ -1,0 +1,1 @@
+It is the code for the co2 sensor. Output is a 4 bit number with unit of PPM. 
