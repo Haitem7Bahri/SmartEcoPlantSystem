@@ -2,6 +2,7 @@
 
 <h1 align="center">
 <img width="64" src="doc/SEPSlogo.png">
+  <br>
   Smart Eco-Plant System
   <br>
   <a href="https://github.com/Haitem7Bahri/SmartEcoPlantSystem/issues"><img src="https://img.shields.io/github/issues/Haitem7Bahri/SmartEcoPlantSystem" alt="GitHub Issues"></a>
