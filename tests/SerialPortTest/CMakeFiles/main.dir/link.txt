@@ -1,0 +1,1 @@
+/usr/bin/c++    -rdynamic CMakeFiles/main.dir/serialtest.cxx.o  -o main -lwiringPi 

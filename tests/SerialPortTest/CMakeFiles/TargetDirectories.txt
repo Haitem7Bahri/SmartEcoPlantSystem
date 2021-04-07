@@ -1,0 +1,3 @@
+/home/pi/Documents/SmartEcoPlantSystem/tests/SerialPortTest/CMakeFiles/rebuild_cache.dir
+/home/pi/Documents/SmartEcoPlantSystem/tests/SerialPortTest/CMakeFiles/main.dir
+/home/pi/Documents/SmartEcoPlantSystem/tests/SerialPortTest/CMakeFiles/edit_cache.dir

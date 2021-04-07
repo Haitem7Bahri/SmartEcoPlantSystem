@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/pi/Documents/SmartEcoPlantSystem/tests/CarbonDioxideSensorTest/src/./../include/co2tf.h
+stdio.h
+-
+wiringPi.h
+-
+wiringSerial.h
+-
+
+/home/pi/Documents/SmartEcoPlantSystem/tests/CarbonDioxideSensorTest/src/co2tr.cpp
+./../include/co2tf.h
+/home/pi/Documents/SmartEcoPlantSystem/tests/CarbonDioxideSensorTest/src/./../include/co2tf.h
+
+/home/pi/Documents/SmartEcoPlantSystem/tests/CarbonDioxideSensorTest/src/main.cpp
+stdio.h
+-
+iostream
+-
+cstdlib
+-
+wiringPi.h
+-
+wiringSerial.h
+-
+./../include/co2tf.h
+/home/pi/Documents/SmartEcoPlantSystem/tests/CarbonDioxideSensorTest/src/./../include/co2tf.h
+

@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/pi/Documents/SmartEcoPlantSystem/tests/SerialPortTest/serialtest.cxx
+stdio.h
+-
+wiringPi.h
+-
+wiringSerial.h
+-
+

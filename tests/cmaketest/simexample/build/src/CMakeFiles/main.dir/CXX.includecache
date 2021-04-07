@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/pi/Documents/SmartEcoPlantSystem/tests/cmaketest/simexample/src/./../include/testFunc.h
+
+/home/pi/Documents/SmartEcoPlantSystem/tests/cmaketest/simexample/src/./../include/testFunc1.h
+
+/home/pi/Documents/SmartEcoPlantSystem/tests/cmaketest/simexample/src/main.cxx
+stdio.h
+-
+./../include/testFunc.h
+/home/pi/Documents/SmartEcoPlantSystem/tests/cmaketest/simexample/src/./../include/testFunc.h
+./../include/testFunc1.h
+/home/pi/Documents/SmartEcoPlantSystem/tests/cmaketest/simexample/src/./../include/testFunc1.h
+
+/home/pi/Documents/SmartEcoPlantSystem/tests/cmaketest/simexample/src/testFunc.cxx
+stdio.h
+-
+./../include/testFunc.h
+/home/pi/Documents/SmartEcoPlantSystem/tests/cmaketest/simexample/src/./../include/testFunc.h
+
+/home/pi/Documents/SmartEcoPlantSystem/tests/cmaketest/simexample/src/testFunc1.cxx
+stdio.h
+-
+./../include/testFunc1.h
+/home/pi/Documents/SmartEcoPlantSystem/tests/cmaketest/simexample/src/./../include/testFunc1.h
+
