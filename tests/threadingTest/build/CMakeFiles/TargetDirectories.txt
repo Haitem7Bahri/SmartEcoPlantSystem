@@ -1,0 +1,3 @@
+/home/pi/Desktop/SmartEcoPlantSystem/tests/threadingTest/build/CMakeFiles/rebuild_cache.dir
+/home/pi/Desktop/SmartEcoPlantSystem/tests/threadingTest/build/CMakeFiles/threadingTest.dir
+/home/pi/Desktop/SmartEcoPlantSystem/tests/threadingTest/build/CMakeFiles/edit_cache.dir

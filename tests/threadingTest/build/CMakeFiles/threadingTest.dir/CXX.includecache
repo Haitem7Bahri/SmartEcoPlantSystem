@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/pi/Desktop/SmartEcoPlantSystem/tests/threadingTest/threadingTest.cpp
+iostream
+-
+cstdlib
+-
+unistd.h
+-
+pthread.h
+-
+wiringPi.h
+-
+
