@@ -10,6 +10,12 @@ find_library(THREADLIB_LIBRARIES pthread )
 find_path(THREADLIB_INCLUDE_DIRS NAMES "pthread.h" )
 include_directories(${THREADLIB_INCLUDE_DIRS} )
 
-add_executable(threadingTest threadingTest.cpp)
+
+add_executable(threadingTest
+	threadingTest.cpp
+	blinkingConst.cpp
+	blinkingVar.cpp
+
+)
 target_link_libraries(threadingTest ${WIRINGPI_LIBRARIES})
 target_link_libraries(threadingTest ${THREADLIB_LIBRARIES})

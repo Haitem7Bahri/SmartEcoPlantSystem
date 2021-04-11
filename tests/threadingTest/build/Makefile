@@ -123,6 +123,60 @@ threadingTest/fast:
 	$(MAKE) -f CMakeFiles/threadingTest.dir/build.make CMakeFiles/threadingTest.dir/build
 .PHONY : threadingTest/fast
 
+blinkingConst.o: blinkingConst.cpp.o
+
+.PHONY : blinkingConst.o
+
+# target to build an object file
+blinkingConst.cpp.o:
+	$(MAKE) -f CMakeFiles/threadingTest.dir/build.make CMakeFiles/threadingTest.dir/blinkingConst.cpp.o
+.PHONY : blinkingConst.cpp.o
+
+blinkingConst.i: blinkingConst.cpp.i
+
+.PHONY : blinkingConst.i
+
+# target to preprocess a source file
+blinkingConst.cpp.i:
+	$(MAKE) -f CMakeFiles/threadingTest.dir/build.make CMakeFiles/threadingTest.dir/blinkingConst.cpp.i
+.PHONY : blinkingConst.cpp.i
+
+blinkingConst.s: blinkingConst.cpp.s
+
+.PHONY : blinkingConst.s
+
+# target to generate assembly for a file
+blinkingConst.cpp.s:
+	$(MAKE) -f CMakeFiles/threadingTest.dir/build.make CMakeFiles/threadingTest.dir/blinkingConst.cpp.s
+.PHONY : blinkingConst.cpp.s
+
+blinkingVar.o: blinkingVar.cpp.o
+
+.PHONY : blinkingVar.o
+
+# target to build an object file
+blinkingVar.cpp.o:
+	$(MAKE) -f CMakeFiles/threadingTest.dir/build.make CMakeFiles/threadingTest.dir/blinkingVar.cpp.o
+.PHONY : blinkingVar.cpp.o
+
+blinkingVar.i: blinkingVar.cpp.i
+
+.PHONY : blinkingVar.i
+
+# target to preprocess a source file
+blinkingVar.cpp.i:
+	$(MAKE) -f CMakeFiles/threadingTest.dir/build.make CMakeFiles/threadingTest.dir/blinkingVar.cpp.i
+.PHONY : blinkingVar.cpp.i
+
+blinkingVar.s: blinkingVar.cpp.s
+
+.PHONY : blinkingVar.s
+
+# target to generate assembly for a file
+blinkingVar.cpp.s:
+	$(MAKE) -f CMakeFiles/threadingTest.dir/build.make CMakeFiles/threadingTest.dir/blinkingVar.cpp.s
+.PHONY : blinkingVar.cpp.s
+
 threadingTest.o: threadingTest.cpp.o
 
 .PHONY : threadingTest.o
@@ -159,6 +213,12 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... threadingTest"
 	@echo "... edit_cache"
+	@echo "... blinkingConst.o"
+	@echo "... blinkingConst.i"
+	@echo "... blinkingConst.s"
+	@echo "... blinkingVar.o"
+	@echo "... blinkingVar.i"
+	@echo "... blinkingVar.s"
 	@echo "... threadingTest.o"
 	@echo "... threadingTest.i"
 	@echo "... threadingTest.s"
