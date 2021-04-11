@@ -11,7 +11,9 @@
   <br>
   _______________________________________________
   <br>
-  <a href="https://www.youtube.com/channel/UCa6wbjpejbbG89zu2GJMtjQ/featured"><img width="32" hspace="5" src="doc/youtube.png"></img></a>
+  
+  <br>
+  <a href="https://www.youtube.com/channel/UCa6wbjpejbbG89zu2GJMtjQ/featured"><img width="50" hspace="5" src="doc/youtube.png"></img></a>
   <a href="https://twitter.com/SmartEcoPlantSy"><img width="32" hspace="5" src="doc/twitter.png"></img></a>
 </h1> 
 <!--Logo from https://www.istockphoto.com/-->
