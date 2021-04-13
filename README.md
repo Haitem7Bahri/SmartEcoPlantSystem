@@ -43,8 +43,8 @@ Smart Eco-Plant System consists of sensor part and actual part. Multiple sensors
 * Soil Moisture Sensor: `SEN-13637` <br>
   Details in(https://shop.pimoroni.com/products/sparkfun-soil-moisture-sensor-with-screw-terminals?variant=44592089802&currency=GBP&utm_source=google&utm_medium=cpc&utm_campaign=google+shopping?utm_source=google&utm_medium=surfaces&utm_campaign=shopping&gclid=CjwKCAiAsaOBBhA4EiwAo0_AnIjHytEniALD-TOS6k2NqEpCS4KuGEE_8D-EFHC_6jrr_HvHVhYRqxoC6g8QAvD_BwE#show-reviews) <br>
   <a href="https://github.com/Haitem7Bahri/SmartEcoPlantSystem/tree/main/tests/moistureSensorTest"><img width="100" hspace="10" src="doc/SEN-13637.png"></img></a>
-* Carbon Dioxide Sensor: `JX-CO2-102`<br>
-  Details in(https://item.taobao.com/item.htm?spm=a1z09.2.0.0.12072e8dvhnyjR&id=596444927085&_u=22mnc56fba15)
+* Carbondioxide Sensor: `JX-CO2-102`<br>
+  Details in(https://item.taobao.com/item.htm?spm=a1z09.2.0.0.12072e8dvhnyjR&id=596444927085&_u=22mnc56fba15) <br>
   <a href="https://github.com/Haitem7Bahri/SmartEcoPlantSystem/tree/main/tests/CarbonDioxideSensorTest"><img width="100" hspace="10" src="doc/JX-CO2-102.png"></img></a>
 
 ### Actuators
@@ -58,6 +58,13 @@ Smart Eco-Plant System consists of sensor part and actual part. Multiple sensors
 * Microchip `mcp3008`
 
 ## Software
+In the project, we use SPI interface to transmit data from sensors to Raspberry Pi. However, the sensors we use are not all support SPI interface. The microchip mcp3008 is applied for unifying the interface which would significantly increasing our coding effiency. For example, the Carbondioxide Sensor uses UART. The support to UART on raspberry pi is really bad but the support to SPI is good.<br>
+
+### Software on JX-CO2-102
+It is the latest product of the JingXunChangTong whose customers are the hecienda owners. Therefore, it is relatively cheap and tough while accuracy being still acceptable.
+We also provide the carbondioxide sensor's code for UART interface on Raspberry Pi 4b for those who don't want to purchase the mcp3008.<br>
+In order to transmit the data, we must enable the UART(not the ubstable miniuart) first.<br>
+
 
 
 ## Instruction
