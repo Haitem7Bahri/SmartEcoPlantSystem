@@ -27,9 +27,12 @@ Smart Eco-Plant System consists of sensor part and actual part. Multiple sensors
 
 ### Sensors
 
-* Temperature and Humidity Sensor: `DHT22`
-* Soil Moisture Sensor: `SEN-13637`
-* Carbon Dioxide Sensor: `JX-CO2-102`
+* Temperature and Humidity Sensor: `DHT22`<br>
+  <a href="https://github.com/Haitem7Bahri/SmartEcoPlantSystem/tests/Temperature&HumiditySensorTest"><img width="100" hspace="10" src="doc/DHT22_pins.png"></img></a>
+* Soil Moisture Sensor: `SEN-13637` <br>
+  <a href="https://github.com/Haitem7Bahri/SmartEcoPlantSystem/tests/moistureSensorTest"><img width="100" hspace="10" src="doc/SEN-13637.png"></img></a>
+* Carbon Dioxide Sensor: `JX-CO2-102`<br>
+  <a href="https://github.com/Haitem7Bahri/SmartEcoPlantSystem/tests/CarbonDioxideSensorTest"><img width="100" hspace="10" src="doc/JX-CO2-102.png"></img></a>
 
 ### Actuators
 
