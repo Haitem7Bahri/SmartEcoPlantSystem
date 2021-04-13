@@ -37,10 +37,14 @@ Smart Eco-Plant System consists of sensor part and actual part. Multiple sensors
 ### Sensors
 
 * Temperature and Humidity Sensor: `DHT22`<br>
+  Details in("https://www.ebay.co.uk/itm/DHT22-Digital-Temperature-Humidity-Sensor-AM2302-Module-with-Cable-UK-Seller/313229638949?hash=item48edf0fd25:g:LUEAAOSwuI9gNV7l
+") <br>
   <a href="https://github.com/Haitem7Bahri/SmartEcoPlantSystem/tree/main/tests/Temperature%26HumiditySensorTest"><img width="100" hspace="10" src="doc/DHT22_pins.png"></img></a>
 * Soil Moisture Sensor: `SEN-13637` <br>
+  Details in(https://shop.pimoroni.com/products/sparkfun-soil-moisture-sensor-with-screw-terminals?variant=44592089802&currency=GBP&utm_source=google&utm_medium=cpc&utm_campaign=google+shopping?utm_source=google&utm_medium=surfaces&utm_campaign=shopping&gclid=CjwKCAiAsaOBBhA4EiwAo0_AnIjHytEniALD-TOS6k2NqEpCS4KuGEE_8D-EFHC_6jrr_HvHVhYRqxoC6g8QAvD_BwE#show-reviews) <br>
   <a href="https://github.com/Haitem7Bahri/SmartEcoPlantSystem/tree/main/tests/moistureSensorTest"><img width="100" hspace="10" src="doc/SEN-13637.png"></img></a>
 * Carbon Dioxide Sensor: `JX-CO2-102`<br>
+  Details in(https://item.taobao.com/item.htm?spm=a1z09.2.0.0.12072e8dvhnyjR&id=596444927085&_u=22mnc56fba15)
   <a href="https://github.com/Haitem7Bahri/SmartEcoPlantSystem/tree/main/tests/CarbonDioxideSensorTest"><img width="100" hspace="10" src="doc/JX-CO2-102.png"></img></a>
 
 ### Actuators
