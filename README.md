@@ -60,15 +60,20 @@ Smart Eco-Plant System consists of sensor part and actual part. Multiple sensors
 ## Software
 In the project, we use SPI interface to transmit data from sensors to Raspberry Pi. However, the sensors we use are not all support SPI interface. The microchip mcp3008 is applied for unifying the interface which would significantly increasing our coding effiency. For example, the Carbondioxide Sensor uses UART. The support to UART on raspberry pi is really bad but the support to SPI is good.<br>
 
-### Software on JX-CO2-102
+### How to use UART
 It is the latest product of the JingXunChangTong whose customers are the hecienda owners. Therefore, it is relatively cheap and tough while accuracy being still acceptable.
 We also provide the carbondioxide sensor's code for UART interface on Raspberry Pi 4b for those who don't want to purchase the mcp3008.<br>
 In order to transmit the data, we must enable the UART(not the ubstable miniuart) first.<br>
+Open the miniuart via `sudo raspi-config` then `reboot` <br>
+Change the default UART serial port via add `dtoverlay=pi3-disable-bt ` to `sudo vi /boot/config.txt` <br>
+Then check `ls -l /dev/seri*` <br>
+The bluetooth would be closed if we enable the UART, so think twice. <br>
+
+### How to use mcp3008
 
 
 
 ## Instruction
-
 
 
 
