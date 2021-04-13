@@ -17,12 +17,21 @@
   <a href="https://twitter.com/SmartEcoPlantSy"><img width="34" hspace="5" src="doc/twitter.png"></img></a>
 </h1> 
 
+# Contributors
+* Haitem Bahri (https://github.com/Haitem7Bahri)
+* Tao Xu (https://github.com/TaoXu-Git) 
+* Khanisorn Chayangsu (https://github.com/windthestorm)
 
 # SmartEcoPlantSystem
 
-Smart Eco-Plant system is an intelligent system to help plants grow better by monitoring the environmental parameters the affect growth and manipulate these parameters using actuators to achieve the best atmosphere for the plants to grow better.
+Smart Eco-Plant system is an intelligent system to help plants grow better by monitoring the environmental parameters the affect growth and manipulate these parameters using actuators to achieve the best atmosphere for the plants to grow better.<br>
+<br>
+> Brief processflow shown below: <br>
 
-## Components:
+<h1 align="center">
+<img width="500" src="doc/processflow.png"></img>
+
+## Components
 Smart Eco-Plant System consists of sensor part and actual part. Multiple sensors are in charge of collecting and transmitting the environment parameters. Actuators are applied for adjusting the environment factors to make enviroment suitable for the growth of the required plant. Description for each sensor and actuators is attached. Meanwhile, some important relevant supporting components are also attached. <br>
 
 ### Sensors
