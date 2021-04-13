@@ -28,11 +28,11 @@ Smart Eco-Plant System consists of sensor part and actual part. Multiple sensors
 ### Sensors
 
 * Temperature and Humidity Sensor: `DHT22`<br>
-  <a href="https://github.com/Haitem7Bahri/SmartEcoPlantSystem/tests/Temperature&HumiditySensorTest"><img width="100" hspace="10" src="doc/DHT22_pins.png"></img></a>
+  <a href="https://github.com/Haitem7Bahri/SmartEcoPlantSystem/tree/main/tests/Temperature%26HumiditySensorTest"><img width="100" hspace="10" src="doc/DHT22_pins.png"></img></a>
 * Soil Moisture Sensor: `SEN-13637` <br>
-  <a href="https://github.com/Haitem7Bahri/SmartEcoPlantSystem/tests/moistureSensorTest"><img width="100" hspace="10" src="doc/SEN-13637.png"></img></a>
+  <a href="https://github.com/Haitem7Bahri/SmartEcoPlantSystem/tree/main/tests/moistureSensorTest"><img width="100" hspace="10" src="doc/SEN-13637.png"></img></a>
 * Carbon Dioxide Sensor: `JX-CO2-102`<br>
-  <a href="https://github.com/Haitem7Bahri/SmartEcoPlantSystem/tests/CarbonDioxideSensorTest"><img width="100" hspace="10" src="doc/JX-CO2-102.png"></img></a>
+  <a href="https://github.com/Haitem7Bahri/SmartEcoPlantSystem/tree/main/tests/CarbonDioxideSensorTest"><img width="100" hspace="10" src="doc/JX-CO2-102.png"></img></a>
 
 ### Actuators
 
@@ -43,6 +43,8 @@ Smart Eco-Plant System consists of sensor part and actual part. Multiple sensors
 ### Supporting Components
 
 * Microchip `mcp3008`
+
+## Software
 
 
 ## Instruction
