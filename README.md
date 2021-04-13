@@ -23,22 +23,23 @@
 Smart Eco-Plant system is an intelligent system to help plants grow better by monitoring the environmental parameters the affect growth and manipulate these parameters using actuators to achieve the best atmosphere for the plants to grow better.
 
 ## Components:
-Smart Eco-Plant System consists of sensor part and actual part. Multiple sensors are in charge of collecting and transmitting the environment parameters. Actuators are applied for adjusting the environment factors to make enviroment suitable for the growth of the required plant. Description for each sensor and actuators is attached.<br>
+Smart Eco-Plant System consists of sensor part and actual part. Multiple sensors are in charge of collecting and transmitting the environment parameters. Actuators are applied for adjusting the environment factors to make enviroment suitable for the growth of the required plant. Description for each sensor and actuators is attached. Meanwhile, some important relevant supporting components are also attached. <br>
 
 ### Sensors
 
-#### Temperature and Humidity Sensor: `DHT22`
-
-#### Soil Moisture Sensor: `SEN-13637`
-
-#### Carbon Dioxide Sensor: `JX-CO2-102`
+* Temperature and Humidity Sensor: `DHT22`
+* Soil Moisture Sensor: `SEN-13637`
+* Carbon Dioxide Sensor: `JX-CO2-102`
 
 ### Actuators
 
-#### Watering System
+* Watering System
 
-#### Ventilating System
+* Ventilating System
 
+### Supporting Components
+
+* Microchip `mcp3008`
 
 
 ## Instruction
