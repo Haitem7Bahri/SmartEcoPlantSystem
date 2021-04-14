@@ -70,6 +70,7 @@ Then check `ls -l /dev/seri*` <br>
 The bluetooth would be closed if we enable the UART, so think twice. <br>
 
 ### How to use mcp3008
+<img width="200" src="doc/mcp3008.png"></img> <br>
 
 
 
