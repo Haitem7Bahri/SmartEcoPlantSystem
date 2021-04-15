@@ -15,12 +15,12 @@ void *ventilatingSystemThread::process()
    
 	pinMode (0, OUTPUT) ;
 	
-	cout << "ventilatingSystemThread Started \n";
+	cout << "Ventilating System Thread Started \n";
 	
 	for (int i=0; i<1000; i++)
 	{
 		digitalWrite (0, 1) ;
-		delay (200) ;
+		delay (20*i) ;
 		digitalWrite (0, 0) ;
 		delay (200) ;
 	}
