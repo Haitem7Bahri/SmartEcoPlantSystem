@@ -29,7 +29,7 @@ Smart Eco-Plant system is an intelligent system to help plants grow better by mo
 > Brief processflow shown below: <br>
 
 <h1 align="center">
-<img width="500" src="doc/processflow.png"></img>
+<img width="500" src="doc/processflow2.png"></img>
 
 ## Components
 Smart Eco-Plant System consists of sensor part and actual part. Multiple sensors are in charge of collecting and transmitting the environment parameters. Actuators are applied for adjusting the environment factors to make enviroment suitable for the growth of the required plant. Description for each sensor and actuators is attached. Meanwhile, some important relevant supporting components are also attached. <br>
@@ -71,7 +71,7 @@ The bluetooth would be closed if we enable the UART, so think twice. <br>
 
 ### How to use mcp3008
 <img width="200" src="doc/mcp3008.png"></img> <br>
-
+MCP3008 is a ADC chip which can make SPI interface on RaspberryPi more convenient. The library writen in cpp can be found in https://github.com/halherta/RaspberryPi-mcp3008Spi.
 
 
 ## Instruction
