@@ -7,13 +7,13 @@
 
 using namespace std;
 
-class moistureSensor
+class tempSensor
 {
 	private:
 		string _spiBus;
 		int _analogChannel;
 	public:
-		moistureSensor(string, int);
+		tempSensor(string, int);
 		int read();
 }
 ;

@@ -5,17 +5,17 @@
 #include <wiringPi.h>
 #include <thread>
 #include "../include/mcp3008Spi.h"
-#include "../include/moistureSensor.h"
+#include "../include/tempSensor.h"
 
 using namespace std;
 
-moistureSensor::moistureSensor(string spiBus, int analogChannel)
+tempSensor::tempSensor(string spiBus, int analogChannel)
 {
     _spiBus = spiBus;
     _analogChannel = analogChannel;
 }
 
-int moistureSensor::read()
+int tempSensor::read()
 {
 	mcp3008Spi a2d(_spiBus, SPI_MODE_0, 1000000, 8);
     int a2dVal = 0;
