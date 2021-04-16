@@ -17,7 +17,7 @@ void *ventilatingSystemThread::process()
 	
 	cout << "Ventilating System Thread Started \n";
 	
-	for (int i=0; i<1000; i++)
+	for (int i=0; i<10; i++)
 	{
 		digitalWrite (0, 1) ;
 		delay (20*i) ;
@@ -35,12 +35,14 @@ void *ventilatingSystemThread::process_wrapper(void *object)
 
 void ventilatingSystemThread::start()
 {
-	pthread_create(&_thread, NULL, &ventilatingSystemThread::process_wrapper, this);
+	pthread_t t;
+	 
+	pthread_create(&t, NULL, &ventilatingSystemThread::process_wrapper, this);
 	
-	ventilatingSystemThread::join();
+	//ventilatingSystemThread::join(t);
 }
 
-void ventilatingSystemThread::join()
+void ventilatingSystemThread::join(pthread_t _t)
 {
-  	pthread_join(_thread, NULL);
+  	pthread_join(_t, NULL);
 }

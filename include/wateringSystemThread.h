@@ -4,7 +4,7 @@
 #include <pthread.h>
 #include <thread>
 
-class ventilatingSystemThread
+class wateringSystemThread
 {
 	private:
 		pthread_t _thread;

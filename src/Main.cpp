@@ -8,6 +8,8 @@
 #include "../include/ventilatingSystem.h"
 #include "../include/wateringSystem.h"
 #include "../include/ventilatingSystemThread.h"
+#include "../include/wateringSystemThread.h"
+
 
 
 using namespace std;
@@ -28,8 +30,10 @@ int main (void)
   //wS.run();
   
   ventilatingSystemThread vsT;
+  wateringSystemThread wsT;
   
   vsT.start();
+  wsT.start();
   
   return 0;
 }
