@@ -12,13 +12,14 @@ include_directories(${THREADLIB_INCLUDE_DIRS} )
 
 
 add_executable(SmartEcoPlantSystem
-	mcp3008Spi.cpp
-	moistureSensor.cpp
-	tempSensor.cpp
-	ventilatingSystem.cpp
-	ventilatingSystemThread.cpp
-	wateringSystem.cpp
-	wateringSystemThread.cpp
+	src/Main.cpp
+	src/mcp3008Spi.cpp
+	src/moistureSensor.cpp
+	src/tempSensor.cpp
+	src/ventilatingSystem.cpp
+	src/ventilatingSystemThread.cpp
+	src/wateringSystem.cpp
+	src/wateringSystemThread.cpp
 
 
 )
