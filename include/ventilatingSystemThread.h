@@ -2,14 +2,15 @@
 #include <cstdlib>
 #include <unistd.h>
 #include <pthread.h>
-#include <wiringPi.h>
+#include <thread>
 
 class ventilatingSystemThread
 {
+	private:
+		pthread_t _thread;
 	public:
-		void* run();
-		static void *run_wrapper(void *);
+		void *process();
+		static void *process_wrapper(void *);
 		void start();
-		void join();
-}
-;
+		void join(pthread_t);
+};	
