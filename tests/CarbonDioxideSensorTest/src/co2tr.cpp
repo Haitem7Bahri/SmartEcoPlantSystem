@@ -4,8 +4,7 @@
 void getco2(int* bit0, int* bit1, int* bit2, int* bit3){
   static int i = 0;
   int fd = 1;
-  char rx[11];
-
+  char rx[11];   
   if(serialDataAvail(fd)>=1) {  
     rx[i] = serialGetchar(fd);
     if(rx[0] != 0x20) {
