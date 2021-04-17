@@ -19,8 +19,26 @@ int main (void)
   cout << "**  SmartEcoPlantSystem - Realtime Embedded Programming  **\n" ;
   cout << "**  Main Application Entry Point  **\n" ;
   
-  //moistureSensor mS("/dev/spidev0.0", 0);
-  //tempSensor tS("/dev/spidev0.0", 1);
+  moistureSensor mS("/dev/spidev0.0", 1);
+  tempSensor tS("/dev/spidev0.0", 0);
+  
+  while(1)
+  {
+    cout << "Temp = ";
+    cout << tS.readDeg();
+    cout << "C\n";
+    
+    cout << "moiature lvl = ";
+    cout << mS.readVal();
+    cout << "\n";
+    
+    delay(1000);
+    
+    
+    
+    
+    
+  }
     
   //ventilatingSystem vS(0);
   //wateringSystem wS(2,2000);
@@ -29,11 +47,20 @@ int main (void)
   
   //wS.run();
   
-  ventilatingSystemThread vsT;
-  wateringSystemThread wsT;
+  //ventilatingSystemThread vsT;
+  //wateringSystemThread wsT;
   
-  vsT.start();
-  wsT.start();
+  //vsT.start();
+  //wsT.start();
+  
+  //wateringSystem wSys(0, 2000);
+  //wSys.run();
+  
+    //wiringPiSetup();
+    //pinMode (0, OUTPUT) ;
+    //digitalWrite (0, 1);
+    //delay(2000);
+    //digitalWrite(0, 0);
   
   return 0;
 }

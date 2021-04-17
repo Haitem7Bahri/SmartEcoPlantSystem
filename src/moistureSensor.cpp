@@ -35,5 +35,9 @@ int moistureSensor::read()
                 a2dVal |=  (data[2] & 0xff);
     
     return a2dVal;
-  
+}
+
+float moistureSensor::readVal()
+{
+    return (moistureSensor::read() / 10);
 }

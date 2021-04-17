@@ -15,5 +15,6 @@ class tempSensor
 	public:
 		tempSensor(string, int);
 		int read();
+		float readDeg();
 }
 ;

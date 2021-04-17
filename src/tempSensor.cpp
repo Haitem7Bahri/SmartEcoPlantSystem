@@ -35,5 +35,9 @@ int tempSensor::read()
                 a2dVal |=  (data[2] & 0xff);
     
     return a2dVal;
-  
+}
+
+float tempSensor::readDeg()
+{
+    return (tempSensor::read() / 27);
 }
