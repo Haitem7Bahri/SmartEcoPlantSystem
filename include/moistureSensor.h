@@ -15,5 +15,6 @@ class moistureSensor
 	public:
 		moistureSensor(string, int);
 		int read();
+		float readVal();
 }
 ;
