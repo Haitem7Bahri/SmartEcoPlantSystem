@@ -39,5 +39,5 @@ int tempSensor::read()
 
 float tempSensor::readDeg()
 {
-    return (tempSensor::read() / 27);
+    return (tempSensor::read() / 4.5);
 }
