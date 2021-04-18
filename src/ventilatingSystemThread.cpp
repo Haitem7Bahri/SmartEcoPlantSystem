@@ -6,23 +6,33 @@
 #include <thread>
 #include "../include/mcp3008Spi.h"
 #include "../include/ventilatingSystemThread.h"
+#include "../include/tempSensor.h"
+#include "../include/ventilatingSystem.h"
 
 using namespace std;
 
 void *ventilatingSystemThread::process()
 {
-	wiringPiSetup();
-   
-	pinMode (0, OUTPUT) ;
+	tempSensor tS("/dev/spidev0.0", 1);
+	ventilatingSystem vS(1);
 	
+	cout << "------------------------------ \n";
 	cout << "Ventilating System Thread Started \n";
-	
-	for (int i=0; i<10; i++)
+
+	while(1)
 	{
-		digitalWrite (0, 1) ;
-		delay (20*i) ;
-		digitalWrite (0, 0) ;
-		delay (200) ;
+		if(tS.readDeg() > 36)
+		{
+			cout << "T = ";
+			cout << tS.readDeg();
+			cout << "\n";
+			vS.run();
+			delay(1000);
+		}
+		else
+		{
+			vS.stop();
+		}
 	}
   
     return 0;
