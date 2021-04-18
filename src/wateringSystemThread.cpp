@@ -7,25 +7,26 @@
 #include "../include/mcp3008Spi.h"
 #include "../include/wateringSystemThread.h"
 #include "../include/moistureSensor.h"
+#include "../include/wateringSystem.h"
+
 
 using namespace std;
 
 void *wateringSystemThread::process()
 {
-	wiringPiSetup();
-   
-	pinMode (1, OUTPUT) ;
-	
 	moistureSensor mS("/dev/spidev0.0", 0);
+	wateringSystem wS(0, 500);
 	
+	cout << "------------------------------ \n";
 	cout << "Watering System Thread Started \n";
 
-	for (int i=0; i<10000; i++)
+	while(1)
 	{
-		digitalWrite (1, 1) ;
-		delay (mS.read()) ;
-		digitalWrite (1, 0) ;
-		delay (1000) ;
+		if(mS.readVal() > 80)
+		{
+			cout << "Soil is dry .. starting water pump!";
+			wS.run();
+		}
 	}
   
     return 0;

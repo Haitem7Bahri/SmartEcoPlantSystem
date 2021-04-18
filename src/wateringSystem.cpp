@@ -21,6 +21,7 @@ void wateringSystem::run()
     digitalWrite (_port, 1);
     delay(_runTime);
     digitalWrite(_port, 0);
+    delay(5000);
 }
 
 void wateringSystem::stop()
