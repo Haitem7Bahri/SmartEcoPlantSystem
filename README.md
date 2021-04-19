@@ -75,6 +75,33 @@ Smart Eco-Plant System consists of sensor part and actual part. Multiple sensors
 
 * Microchip `mcp3008`
 
+# Getting Started
+
+1. Make a clone of the repository on your raspberry pi:
+
+`git clone https://github.com/Haitem7Bahri/SmartEcoPlantSystem`
+
+2. Navigate to the repository folder and create build folder:
+
+`mkdir build`
+
+3. Navigate to build folder:
+
+`cd build`
+
+4. Run Cmake from build folder:
+
+`cmake ..`
+
+5. Run Make:
+
+`make`
+
+6. Run Program:
+
+`./SmartEcoPlantSystem`
+
+
 ## Software
 In the project, we use SPI interface to transmit data from sensors to Raspberry Pi. However, the sensors we use are not all support SPI interface. The microchip mcp3008 is applied for unifying the interface which would significantly increasing our coding effiency. For example, the Carbondioxide Sensor uses UART. The support to UART on raspberry pi is really bad but the support to SPI is good.<br>
 
