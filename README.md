@@ -12,14 +12,17 @@
   <br>
 </h1> 
 
+
 # Follow us
   <a href="https://www.youtube.com/channel/UCa6wbjpejbbG89zu2GJMtjQ/featured"><img width="52" hspace="5" src="doc/youtube.png"></img></a>
   <a href="https://twitter.com/SmartEcoPlantSy"><img width="34" hspace="5" src="doc/twitter.png"></img></a>
+
 
 # Contributors
 * Haitem Bahri (https://github.com/Haitem7Bahri)
 * Tao Xu (https://github.com/TaoXu-Git) 
 * Khanisorn Chayangsu (https://github.com/windthestorm)
+
 
 # Introduction
 
@@ -29,6 +32,12 @@ Smart Eco-Plant system is an intelligent system to help plants grow better by mo
 <img width="500" src="doc/system.jpg"></img>
 
 > SmartEcoPlantSystem <br>
+
+
+# Structure diagram
+
+<img width="500" src="doc/structure.png"></img>
+
 
 # Wiring diagram
 
