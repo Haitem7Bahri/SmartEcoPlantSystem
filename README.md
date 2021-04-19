@@ -43,7 +43,7 @@ Smart Eco-Plant system is an intelligent system to help plants grow better by mo
 Brief processflow shown below: 
 <br>
 <h1 align="center">
-<img width="500" src="doc/processflow2.png"></img>
+<img width="500" src="doc/processflow3.png"></img>
 
 # Wiring diagram
 
