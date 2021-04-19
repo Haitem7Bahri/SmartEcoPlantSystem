@@ -30,6 +30,8 @@ Smart Eco-Plant system is an intelligent system to help plants grow better by mo
 <br>
 <h1 align="center">
 <img width="500" src="doc/system.jpg"></img>
+<img width="500" src="doc/1.jpg"></img>
+<img width="500" src="doc/2.jpg"></img>
 
 > SmartEcoPlantSystem <br>
 
