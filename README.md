@@ -37,16 +37,17 @@ Smart Eco-Plant system is an intelligent system to help plants grow better by mo
 # Structure diagram
 
 <img width="900" src="doc/structure.png"></img>
-
+<br>
+Brief processflow shown below: 
+<br>
+<h1 align="center">
+<img width="500" src="doc/processflow2.png"></img>
 
 # Wiring diagram
 
-
-
-Brief processflow shown below: <br>
-
 <h1 align="center">
-<img width="500" src="doc/processflow2.png"></img>
+<img width="600" src="doc/wiring.png"></img>
+
 
 ## Components
 Smart Eco-Plant System consists of sensor part and actual part. Multiple sensors are in charge of collecting and transmitting the environment parameters. Actuators are applied for adjusting the environment factors to make enviroment suitable for the growth of the required plant. Description for each sensor and actuators is attached. Meanwhile, some important relevant supporting components are also attached. <br>
