@@ -51,7 +51,7 @@ Brief processflow shown below:
 <img width="600" src="doc/wiring.png"></img>
 
 
-## Components
+# Components
 Smart Eco-Plant System consists of sensor part and actual part. Multiple sensors are in charge of collecting and transmitting the environment parameters. Actuators are applied for adjusting the environment factors to make enviroment suitable for the growth of the required plant. Description for each sensor and actuators is attached. Meanwhile, some important relevant supporting components are also attached. <br>
 
 ### Sensors
@@ -103,7 +103,7 @@ Smart Eco-Plant System consists of sensor part and actual part. Multiple sensors
 
 `./SmartEcoPlantSystem`
 
-## License 
+# License 
 
 This is a free software that can be modified and redistributed under the GPL-30 license.
 No warranty is provided with this software, use it at your own responsibility, check the GPL license documentation (LICENSE.md) for more details.
