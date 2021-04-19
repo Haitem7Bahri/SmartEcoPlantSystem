@@ -36,7 +36,7 @@ Smart Eco-Plant system is an intelligent system to help plants grow better by mo
 
 # Structure diagram
 
-<img width="500" src="doc/structure.png"></img>
+<img width="900" src="doc/structure.png"></img>
 
 
 # Wiring diagram
