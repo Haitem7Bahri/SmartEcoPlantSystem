@@ -54,22 +54,22 @@ Smart Eco-Plant System consists of sensor part and actual part. Multiple sensors
 
 ### Sensors
 
-* Temperature and Humidity Sensor: `DHT22`<br>
-  Details in("https://www.ebay.co.uk/itm/DHT22-Digital-Temperature-Humidity-Sensor-AM2302-Module-with-Cable-UK-Seller/313229638949?hash=item48edf0fd25:g:LUEAAOSwuI9gNV7l
-") <br>
-  <a href="https://github.com/Haitem7Bahri/SmartEcoPlantSystem/tree/main/tests/Temperature%26HumiditySensorTest"><img width="100" hspace="10" src="doc/DHT22_pins.png"></img></a>
-* Soil Moisture Sensor: `SEN-13637` <br>
-  Details in(https://shop.pimoroni.com/products/sparkfun-soil-moisture-sensor-with-screw-terminals?variant=44592089802&currency=GBP&utm_source=google&utm_medium=cpc&utm_campaign=google+shopping?utm_source=google&utm_medium=surfaces&utm_campaign=shopping&gclid=CjwKCAiAsaOBBhA4EiwAo0_AnIjHytEniALD-TOS6k2NqEpCS4KuGEE_8D-EFHC_6jrr_HvHVhYRqxoC6g8QAvD_BwE#show-reviews) <br>
-  <a href="https://github.com/Haitem7Bahri/SmartEcoPlantSystem/tree/main/tests/moistureSensorTest"><img width="100" hspace="10" src="doc/SEN-13637.png"></img></a>
-* Carbondioxide Sensor: `JX-CO2-102`<br>
-  Details in(https://item.taobao.com/item.htm?spm=a1z09.2.0.0.12072e8dvhnyjR&id=596444927085&_u=22mnc56fba15) <br>
-  <a href="https://github.com/Haitem7Bahri/SmartEcoPlantSystem/tree/main/tests/CarbonDioxideSensorTest"><img width="100" hspace="10" src="doc/JX-CO2-102.png"></img></a>
+* Temperature Sensor: `KY-013`<br>
+[Link](https://www.amazon.com/KY-013-Analog-Temperature-Sensor-arduino/dp/B07P87M5GW)
+<br>
+
+* Soil Moisture Sensor: `SEN-13637`<br>
+[Link](https://www.amazon.co.uk/gp/product/B07V6SZYZW/ref=ppx_yo_dt_b_asin_title_o06_s00?ie=UTF8&psc=1)
+<br>
 
 ### Actuators
 
-* Watering System
+* Ventilating System: <br>
+[Link](https://www.aliexpress.com/item/32855526132.html?albpd=en32855526132&acnt=494-037-6276&aff_platform=aaf&albpg=539263010115&netw=u&albcp=12555209680&pvid=0c99d98e-a417-47d7-a73f-18b41ae4b118&sk=UneMJZVf&scm=1007.23534.124000.0&trgt=539263010115&terminal_id=605da29c290e442d983f3966a9b395c6&needSmbHouyi=false&albbt=Google_7_shopping&src=google&crea=en32855526132&aff_fcid=2211ca5653d3499e80905691564f9f3f-1618792871671-04778-UneMJZVf&gclid=Cj0KCQjwse-DBhC7ARIsAI8YcWKmyHHRcOQm58pDKarFQjtV9aFBtE-vJXvx_3LW_xfRjtH_jiBkoaQaAnTYEALw_wcB&albag=122168291729&aff_fsk=UneMJZVf&albch=shopping&albagn=888888&isSmbAutoCall=false&aff_trace_key=2211ca5653d3499e80905691564f9f3f-1618792871671-04778-UneMJZVf&rmsg=do_not_replacement&device=c&gclsrc=aw.ds)
 
-* Ventilating System
+* Watering System <br>
+[Link](https://www.amazon.co.uk/gp/product/B07M8VV4FW/ref=ppx_yo_dt_b_asin_title_o04_s00?ie=UTF8&psc=1)
+
 
 ### Supporting Components
 
@@ -90,13 +90,3 @@ The bluetooth would be closed if we enable the UART, so think twice. <br>
 ### How to use mcp3008
 <img width="200" src="doc/mcp3008.png"></img> <br>
 MCP3008 is a ADC chip which can make SPI interface on RaspberryPi more convenient. The library writen in cpp can be found in https://github.com/halherta/RaspberryPi-mcp3008Spi.
-
-
-## Instruction
-
-
-
-## Credits
-
-
-...
